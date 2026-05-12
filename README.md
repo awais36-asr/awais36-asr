@@ -1,3 +1,31 @@
+<style>
+  .typing {
+    font-family: 'Courier New', monospace;
+    font-size: 2rem;
+    color: #a78bfa;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #a78bfa; /* cursor */
+    width: 0;
+    animation: 
+      typing 3s steps(30) forwards,
+      blink 0.7s step-end infinite;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to   { width: 100% }
+  }
+
+  @keyframes blink {
+    50% { border-color: transparent }
+  }
+</style>
+
+<p class="typing">Hello, I'm a Frontend Developer!</p>
+
+
+
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
